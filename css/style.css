@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#chat-bot-launcher-container {
+  position: absolute;
+}
+
+.btn-primary {
+  background: #25aae1;
+  border: none;
+}
+.btn-primary:hover {
+  background: #25aae1;
+}
+.btn-secondary {
+  background: #e9e9e9;
+  color: #000000;
+  border: none;
+}
+.btn-secondary:hover {
+  background: #e9e9e9;
+  color: #000000;
+}
+
+/*********header********************/
+#header {
+  position: fixed;
+  width: 95vw;
+  z-index: 100;
+  background: #fff;
+  margin: 0 2.5vw;
+}
+#header .nav-link {
+  color: #242624;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+#header .navbar-brand img {
+  width: 150px;
+}
+
+#header .highlight_button .nav-link {
+  background-color: #25aae1;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding: 10px 20px;
+  font-weight: 400;
+}
+#header .nav_links_right {
+  display: flex;
+  align-items: center;
+}
+#header .nav_links_right .nav_links_right_bars {
+  margin-left: 30px;
+  font-size: 1.6rem;
+}
+#header .active {
+  background: #fff;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+main h1 {
+  font-weight: 700;
+}
+main p {
+  font-weight: 400;
+  color: #242624;
+  font-size: 1rem;
+}
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .button_main {
+  margin-top: 50px;
+}
+main .button_main button {
+  width: 150px;
+  font-size: 0.8rem;
+  padding: 10px 5px;
+  font-weight: bold;
+}
+#what_are_we {
+}
+#what_are_we .what_are_we_desc p {
+  width: 90%;
+}
+#what_are_we .what_are_we_desc h2 {
+  font-weight: 700;
+}
+#what_are_we .what_are_we_desc {
+  padding-top: 30px;
+}
+#what_are_we .what_are_we_img img {
+  width: 80%;
+}
+
+#what_are_we .what_are_we_img {
+  width: 80%;
+  margin-left: auto;
+  text-align: right;
+}
+#why_choose_us {
+  margin-top: 100px;
+  text-align: center;
+}
+#why_choose_us h2 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+#why_choose_us h4 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+#why_choose_us .why_choose_us_desc {
+  padding: 20px;
+  background: #e9f8ff;
+  margin: 20px;
+  padding-bottom: 40px;
+  border-radius: 16px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.05);
+}
+#why_choose_us .why_choose_us_desc p {
+  font-size: 0.9rem;
+  color: rgba(36, 38, 36, 0.6);
+  margin-bottom: 0;
+}
+#promo_video {
+  margin: 100px;
+  text-align: center;
+}
+#promo_video iframe {
+  border-radius: 20px;
+}
+
+#part_of_program p {
+}
+#part_of_program h2 {
+  font-weight: 700;
+}
+#part_of_program a {
+  color: #25aae1;
+  font-weight: 700;
+}
+#subscribe_to_news_letter {
+  background: url("../assets/scribe_to_newsletter.png");
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  margin: 100px 0px 0px 0px;
+}
+#subscribe_to_news_letter {
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#subscribe_to_news_letter p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+}
+#subscribe_to_news_letter button {
+  font-size: 0.9rem;
+  padding: 10px 20px;
+}
+
+footer {
+  background: #e9f8ff;
+  padding: 50px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+footer a {
+  color: #242624;
+  font-weight: 700;
+}
+footer .footer_upper {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer_upper .divider {
+  background: #242624;
+}
+
+footer .divider {
+  width: 1px;
+  height: 23px;
+  background: #242624;
+}
+footer .footer_down .footer_down_left {
+  text-align: left;
+}
+footer .footer_down {
+  margin-top: 30px;
+}
+footer .footer_down .footer_down_right {
+  text-align: right;
+}
+footer .footer_down a {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #242624;
+}
+footer .footer_down i {
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 1.5rem;
+  color: #242624;
+}
