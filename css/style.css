@@ -5,7 +5,8 @@ body {
 }
 
 #chat-bot-launcher-container {
-  position: absolute;
+  position: absolute !important;
+  z-index: 50;
 }
 
 .btn-primary {
@@ -136,15 +137,51 @@ main .button_main button {
   color: rgba(36, 38, 36, 0.6);
   margin-bottom: 0;
 }
+/*********************/
 #promo_video {
-  margin: 100px;
+}
+/* #promo_video iframe {
+
+} */
+
+.youtube-player {
+  margin: 100px auto;
+  position: relative;
+  width: 70vw;
+  height: 84.5vh;
+  cursor: pointer;
   text-align: center;
 }
-#promo_video iframe {
-  border-radius: 20px;
+
+.youtube-player img {
+  width: 100%;
 }
 
-#part_of_program p {
+.youtube-player.pristine::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -25px;
+  height: 0;
+  width: 0;
+  border-left: 50px solid #25aae1;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  transition: opacity 0.2s ease;
+  border-radius: 10px;
+  /* background: #fff; */
+}
+
+.youtube-player.pristine:hover::before {
+  opacity: 0.7;
+}
+
+/**********************************************/
+
+#part_of_program {
+  margin-top: 300px;
 }
 #part_of_program h2 {
   font-weight: 700;
