@@ -94,6 +94,7 @@ main .button_main button {
   padding: 10px 5px;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.53);
+  border-radius: 10px;
 }
 #what_are_we {
 }
@@ -136,7 +137,7 @@ height: 344px;
 background: #E9F8FF;
 box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.05);
 border-radius: 16px;
-padding-top:50px ;
+padding-top:70px ;
 }
 #why_choose_us .why_choose_us_desc p {
   font-size: 0.9rem;
@@ -145,39 +146,39 @@ padding-top:50px ;
 }
 /*********************/
 #promo_video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
 }
-/* #promo_video iframe {
-
-} */
-
-.youtube-player {
-  margin: 100px auto;
-  position: relative;
-  width: 70vw;
-  height: 84.5vh;
-  cursor: pointer;
-  text-align: center;
+#promo_video iframe{
+ width: 840px;
+ height: 450px;
+ border-radius: 10px;
 }
 
-.youtube-player img {
-  width: 100%;
-}
-
-.youtube-player.pristine::before {
-
-}
-
-.youtube-player.pristine:hover::before {
-  opacity: 0.7;
-}
 
 /**********************************************/
 
 #part_of_program {
-  margin-top: 200px;
+  margin-top: 100px;
+}
+#part_of_program .part_of_program_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#part_of_program .part_of_program_text {
+  padding-left: 100px;
+}
+#part_of_program img {
+
 }
 #part_of_program h2 {
   font-weight: 700;
+}
+#part_of_program p {
+  width: 80%;
 }
 #part_of_program a {
   color: #25aae1;
@@ -258,7 +259,7 @@ footer .footer_down a {
   font-size: 18px;
   color: #242624;
 }
-footer .footer_down i {
+footer .footer_down img {
   font-weight: bold;
   margin-left: 44px;
   font-size: 1.5rem;
