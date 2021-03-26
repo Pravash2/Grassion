@@ -11,6 +11,19 @@
   display: none !important;
 } */
 
+#chat-bot-launcher-container #chat-bot-avatar-text:before {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -15px;
+  top: 34%;
+  bottom: auto;
+  border: 8px solid;
+  border-color: transparent transparent transparent #fff;
+  display: none;
+}
 body {
   font-family: "Poppins", sans-serif;
 }
