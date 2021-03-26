@@ -551,3 +551,13 @@ footer .footer_down img {
   height: 35px;
 }
 /* ------testimonial  close-------*/
+
+/********************Play Button******************/
+#play_button {
+  text-align: center;
+}
+#play_button img {
+  width: 454px;
+  margin-top: 100px;
+  cursor: pointer;
+}
