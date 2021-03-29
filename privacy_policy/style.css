@@ -92,3 +92,8 @@ body {
 #privacy_policy .privacy_policy_img {
   text-align: center;
 }
+@media only screen and (max-width: 600px) {
+  #privacy_policy .privacy_policy_img img {
+    width: 300px;
+  }
+}

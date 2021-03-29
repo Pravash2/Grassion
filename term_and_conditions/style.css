@@ -95,3 +95,9 @@ body {
 #privacy_policy .term_and_condition_img img {
   width: 400px;
 }
+
+@media only screen and (max-width: 600px) {
+  #privacy_policy .term_and_condition_img img {
+    width: 300px;
+  }
+}

@@ -55,7 +55,7 @@ body {
 #about_us p {
   color: rgba(36, 38, 36, 1);
   font-size: 300;
-  width: 80%;
+  width: 90%;
 }
 #end_design span {
   width: 8px;
@@ -80,4 +80,16 @@ body {
 .about_page_float_bottom img {
   width: 400px;
   height: 400px;
+}
+@media only screen and (max-width: 600px) {
+  .about_page_float_bottom {
+    position: static;
+    width: 300px;
+    margin: 0;
+  }
+  .about_page_float_bottom img {
+    width: 350px;
+    height: 300px;
+    margin: 0;
+  }
 }
