@@ -92,9 +92,9 @@ p {
 }
 #header .nav-link {
   color: #242624;
-  text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 0.9rem;
+  margin-left: 40px;
 }
 #header .navbar-brand img {
   width: 150px;

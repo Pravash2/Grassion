@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+}
+/*********header********************/
+#header {
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
+  background: #fff;
+  padding: 0 2.5vw;
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 2px 3px rgb(37, 170, 225, 0.3);
+}
+#header .nav-link {
+  color: #242624;
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-left: 40px;
+}
+#header .navbar-brand img {
+  width: 150px;
+}
+
+#header .highlight_button .nav-link {
+  background-color: #25aae1;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding: 10px 20px;
+  font-weight: 400;
+}
+#header .nav_links_right {
+  display: flex;
+  align-items: center;
+}
+#header .nav_links_right .nav_links_right_bars {
+  margin-left: 30px;
+  font-size: 1.6rem;
+}
+#header .active {
+  background: #fff;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+/***************************/
+#location {
+  padding-top: 150px;
+}
+#location .location_left {
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+#location .location_left .location_left_div_first {
+  display: flex;
+}
+#location .location_left .location_left_div {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+#location h1 {
+  color: rgba(36, 38, 36, 1);
+  font-weight: 700;
+
+  font-size: 25px;
+}
+#location h2 {
+  color: rgba(36, 38, 36, 1);
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+#location p {
+  color: rgba(36, 38, 36, 1);
+  font-size: 300;
+  width: 80%;
+  font-size: 25px;
+}
+#end_design span {
+  width: 8px;
+  height: 8px;
+  background-color: #000;
+  border-radius: 4px;
+  display: inline-block;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  margin-right: 10px;
+}
+#end_design span:nth-child(odd) {
+  background: #25aae1;
+}
+/**************************************/
+.about_page_float_bottom {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  z-index: -1;
+  width: 400px;
+}
+.about_page_float_bottom img {
+  width: 400px;
+  height: 400px;
+}
