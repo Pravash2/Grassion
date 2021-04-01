@@ -10,7 +10,9 @@
   .ytp-copylink-button-visible {
   display: none !important;
 } */
-
+.navbar-dark .navbar-toggler {
+  background: #adb5bd !important;
+}
 #chat-bot-launcher-container #chat-bot-avatar-text:before {
   content: " ";
   position: absolute;

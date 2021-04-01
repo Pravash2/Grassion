@@ -3,6 +3,9 @@ body {
   font-family: "Poppins", sans-serif;
   background: #fff;
 }
+.navbar-dark .navbar-toggler {
+  background: #adb5bd !important;
+}
 /*********header********************/
 #header {
   position: fixed;

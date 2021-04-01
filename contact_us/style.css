@@ -13,9 +13,6 @@ body {
   z-index: 100;
   background: #fff;
   padding: 0 2.5vw;
-  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-  box-shadow: 0 2px 3px rgb(37, 170, 225, 0.3);
 }
 #header .nav-link {
   color: #242624;
@@ -51,22 +48,14 @@ body {
 }
 
 /***************************/
-#our_services {
+#collaborate {
   padding-top: 150px;
 }
-#our_services h1 {
+#collaborate h1 {
   color: rgba(36, 38, 36, 1);
   font-weight: 700;
-  margin-bottom: 20px;
-  font-size: 25px;
 }
-#our_services h2 {
-  color: rgba(36, 38, 36, 1);
-  font-weight: 600;
-  margin-bottom: 20px;
-  font-size: 25px;
-}
-#our_services p {
+#collaborate p {
   color: rgba(36, 38, 36, 1);
   font-size: 300;
   width: 80%;
@@ -95,6 +84,9 @@ body {
   width: 400px;
   height: 400px;
 }
+a {
+  color: #25aae1;
+}
 @media only screen and (max-width: 600px) {
   .about_page_float_bottom {
     position: static;
@@ -106,4 +98,34 @@ body {
     height: 300px;
     margin: 0;
   }
+}
+
+#exTab1 .tab-content {
+  color: white;
+  background-color: #428bca;
+  padding: 5px 15px;
+}
+
+#exTab2 h3 {
+  color: white;
+  background-color: #428bca;
+  padding: 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0;
+}
+
+#exTab3 .tab-content {
+  color: white;
+  background-color: #428bca;
+  padding: 5px 15px;
 }

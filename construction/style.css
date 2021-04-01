@@ -11,6 +11,9 @@ body {
   background: var(--backgroundColor);
   color: var(--textColor);
 }
+.navbar-dark .navbar-toggler {
+  background: #adb5bd !important;
+}
 
 .maintenance-wrap {
   max-width: 500px;
