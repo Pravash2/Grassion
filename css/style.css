@@ -99,7 +99,8 @@ p {
   margin-left: 40px;
 }
 #header .navbar-brand img {
-  width: 150px;
+  width: 80px;
+  padding: 10px;
 }
 
 #header .highlight_button .nav-link {
