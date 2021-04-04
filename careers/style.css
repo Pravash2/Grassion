@@ -103,18 +103,6 @@ body {
 a {
   color: #25aae1;
 }
-@media only screen and (max-width: 600px) {
-  .about_page_float_bottom {
-    position: static;
-    width: 300px;
-    margin: 0;
-  }
-  .about_page_float_bottom img {
-    width: 350px;
-    height: 300px;
-    margin: 0;
-  }
-}
 
 .container {
   display: grid;
@@ -165,4 +153,31 @@ a {
   align-items: center;
   color: #242624;
   font-size: 17px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about_page_float_bottom {
+    position: static;
+    width: 300px;
+    margin: 0;
+  }
+  .about_page_float_bottom img {
+    width: 350px;
+    height: 300px;
+    margin: 0;
+  }
+  #careers input,
+  #careers select,
+  #careers button {
+    width: 100%;
+  }
+  #careers button {
+    background: #25aae1;
+    color: #fff;
+    width: 100%;
+    height: 62px;
+    border-radius: 5px;
+    margin-top: -40px;
+    margin-bottom: 40px;
+  }
 }
