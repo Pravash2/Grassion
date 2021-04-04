@@ -100,32 +100,123 @@ a {
   }
 }
 
-#exTab1 .tab-content {
-  color: white;
-  background-color: #428bca;
-  padding: 5px 15px;
+/*****************Tabs***********************/
+#contact {
+  padding-top: 100px;
+}
+#contact input {
+  height: 62px;
+  padding-left: 60px;
+}
+#contact span.fa {
+  font-size: 1.5rem;
+  line-height: 62px;
+  width: 60px;
+}
+#contact select {
+  height: 62px;
+  line-height: 62px;
+  padding-right: 20px;
+}
+#contact .has-search select {
+  padding-left: 60px;
+}
+#contact .i_am_a {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+#contact .i_am_a h3 {
+  font-weight: 500;
+  font-size: 25px;
+  color: #242624;
+}
+#contact button {
+  background: #25aae1;
+  color: #fff;
+  width: 250px;
+  height: 71px;
+  border-radius: 10px;
+}
+#contact .submit_btn {
+  text-align: center;
+}
+ul.tabs {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  margin-left: 20px;
+}
+ul.tabs li {
+  background: none;
+  color: #222;
+  display: inline-block;
+  cursor: pointer;
+  width: 144px;
+  height: 52px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #25aae1;
+  border-radius: 14px;
+  margin-right: 10px;
 }
 
-#exTab2 h3 {
-  color: white;
-  background-color: #428bca;
-  padding: 5px 15px;
+ul.tabs li.current {
+  background: #25aae1;
+  color: #fff;
+  border-radius: 14px;
 }
 
-/* remove border radius for the tab */
-
-#exTab1 .nav-pills > li > a {
-  border-radius: 0;
+.tab-content {
+  display: none;
+  padding: 15px;
 }
 
-/* change border radius for the tab , apply corners on top*/
-
-#exTab3 .nav-pills > li > a {
-  border-radius: 4px 4px 0 0;
+.tab-content.current {
+  display: inherit;
 }
 
-#exTab3 .tab-content {
-  color: white;
-  background-color: #428bca;
-  padding: 5px 15px;
+/* Styles for wrapping the search box */
+
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+/*********************Thank You Page*****************************/
+#thank_you {
+  padding-top: 100px;
+}
+#thank_you .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#thank_you .main p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #242624;
+  font-size: 17px;
 }

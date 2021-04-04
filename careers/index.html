@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grassion-Customer Support</title>
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav
+      id="header"
+      class="navbar navbar-expand-lg navbar-dark static-top header"
+    >
+      <a class="navbar-brand" href="/">
+        <img src="../assets/logo.png" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarResponsive"
+        aria-controls="navbarResponsive"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto nav_links_right">
+          <li class="nav-item">
+            <a class="nav-link" href="../our_services/index.html"
+              >Our Service</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../about_us/about_us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../collaborate/index.html">Collaborate</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="careers">
+      <div class="container">
+        <h1>Life at Grassion</h1>
+        <p>Upload your Resume to explore Career opportunities</p>
+        <form
+          action="https://formspree.io/f/mpzkzqyk"
+          method="POST"
+          enctype="multipart/form-data"
+        >
+          <div class="row">
+            <div class="col-lg-12 col-sm-12">
+              <div class="form-group has-search">
+                <select
+                  id="inputState2"
+                  class="form-control"
+                  name="Position"
+                  required
+                >
+                  <option selected>Choose Position</option>
+                  <option value="Personal Trainer">Personal Trainer</option>
+                  <option value="Fitness Instructor">Fitness Instructor</option>
+                  <option value="Therapeutic Healer">Therapeutic Healer</option>
+                  <option value="Developer">Developer</option>
+                  <option value="Designer">Designer</option>
+                  <option value="HR">HR</option>
+                  <option value="Content Writer">Content Writer</option>
+                  <option value="Digital Marketer">Digital Marketer</option>
+                  <option value="Video Editor">Video Editor</option>
+                  <option value="Social Media Manager">
+                    Social Media Manager
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <div class="form-group has-search">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="First Name"
+                  name="First Name"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <div class="form-group has-search">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Last Name"
+                  name="Last Name"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <div class="form-group has-search">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Email Address"
+                  type="email"
+                  name="_replyto"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <div class="form-group has-search">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Mobile Number"
+                  name="Mobile Number"
+                />
+              </div>
+            </div>
+            <div class="col-lg-12 col-sm-12">
+              <div class="container_upload">
+                <div class="text">
+                  <label for="fileupload">
+                    <span
+                      class="fa fa-cloud-upload form-control-feedback"
+                    ></span>
+                    Upload CV</label
+                  >
+                </div>
+                <input
+                  id="fileupload"
+                  type="file"
+                  name="upload"
+                  class="fileupload"
+                />
+              </div>
+            </div>
+            <div class="col-lg-12 col-sm-12">
+              <div class="submit_btn">
+                <button type="submit" class="btn">Submit</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <script src="../vendor/jquery/jquery.slim.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
