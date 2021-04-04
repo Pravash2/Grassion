@@ -275,6 +275,22 @@ main .bottom_gif img {
   background-size: cover;
   margin: 100px 0px 0px 0px;
 }
+#mc_embed_signup {
+  background-color: transparent !important;
+  text-align: center;
+}
+#mc_embed_signup #mc_embed_signup_scroll {
+  display: flex;
+}
+#mc_embed_signup #mc_embed_signup_scroll input {
+  height: 62px;
+  border-radius: 12px;
+  font-size: 1.3rem;
+  padding-left: 20px;
+}
+#mc_embed_signup #mc_embed_signup_scroll input:focus {
+  outline: none;
+}
 #subscribe_to_news_letter {
   text-align: center;
   color: #fff;
@@ -293,7 +309,7 @@ main .bottom_gif img {
 }
 #subscribe_to_news_letter button {
   font-size: 0.9rem;
-  width: 317px;
+  width: 150px;
   height: 65px;
   font-weight: 600;
   background: #25aae1;
