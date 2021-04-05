@@ -19,7 +19,7 @@
   width: 0;
   height: 0;
   left: auto;
-  right: -23px;
+  right: -23px !important;
   top: 34%;
   bottom: auto;
   border: 8px solid;
@@ -151,6 +151,27 @@ main .button_main button {
   font-weight: bold;
   color: rgba(0, 0, 0, 0.53);
   border-radius: 10px;
+}
+main .button_main button:hover {
+  background: linear-gradient(to right, #fff 50%, #25aae1 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+  color: #fff;
+}
+main .button_main button:hover {
+  background: linear-gradient(to right, #fff 50%, #25aae1 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+  color: #fff;
+}
+main .button_main .active_btn:hover {
+  background: linear-gradient(to right, #fff 50%, #25aae1 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+  color: #fff;
 }
 
 main .left_gif img {
