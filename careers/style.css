@@ -54,6 +54,7 @@ body {
 /***************************/
 #careers {
   padding-top: 150px;
+  padding-bottom: 30px;
 }
 #careers h1 {
   color: rgba(36, 38, 36, 1);
@@ -82,11 +83,20 @@ body {
 #careers input {
   height: 62px;
   padding-left: 30px;
+  border-radius: 14px;
+  margin-top: 20px;
 }
 #careers select {
   height: 62px;
-  line-height: 62px;
+  line-height: 50px;
   padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 14px;
+  background: url(../assets/down.png) no-repeat right;
+  appearance: none;
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  background-position-x: 98%;
 }
 /**************************************/
 .about_page_float_bottom {
@@ -108,7 +118,19 @@ a {
   display: grid;
   grid-template: [row]1fr / [col] 1fr;
 }
-
+.container_upload {
+  margin-top: 20px;
+}
+.container_upload .text {
+  border: 1px dashed #ced4da;
+  border-radius: 14px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #666766;
+}
+.container_upload .text span {
+  margin-right: 10px;
+}
 .fileupload {
   grid-row: row 1;
   grid-column: col 1;

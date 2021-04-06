@@ -87,8 +87,8 @@ body {
 /**************************************/
 .about_page_float_bottom {
   position: absolute;
-  bottom: 0;
-  right: 10px;
+  bottom: -70px;
+  right: 0px;
   z-index: -1;
   width: 400px;
 }

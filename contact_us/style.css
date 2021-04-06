@@ -49,14 +49,14 @@ body {
 }
 
 /***************************/
-#collaborate {
+#contact {
   padding-top: 150px;
 }
-#collaborate h1 {
+#contact h1 {
   color: rgba(36, 38, 36, 1);
   font-weight: 700;
 }
-#collaborate p {
+#contact p {
   color: rgba(36, 38, 36, 1);
   font-size: 300;
   width: 80%;
@@ -108,6 +108,10 @@ a {
 #contact input {
   height: 62px;
   padding-left: 60px;
+  border-radius: 14px;
+}
+#contact textarea {
+  border-radius: 14px;
 }
 #contact span.fa {
   font-size: 1.5rem;
@@ -116,8 +120,14 @@ a {
 }
 #contact select {
   height: 62px;
-  line-height: 62px;
+  line-height: 50px;
   padding-right: 20px;
+  border-radius: 14px;
+  background: url(../assets/down.png) no-repeat right;
+  appearance: none;
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  background-position-x: 96%;
 }
 #contact .has-search select {
   padding-left: 60px;
