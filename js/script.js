@@ -33,3 +33,12 @@ var config = { once: true };
 Array.from(players).forEach(function (player) {
   player.addEventListener("click", loadPlayer, config);
 });
+
+$(window).scroll(function () {
+  var scroll = $(window).scrollTop();
+  if (scroll > 0) {
+    $("#header").addClass("active");
+  } else {
+    $("#header").removeClass("active");
+  }
+});

@@ -57,6 +57,9 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+#header.active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
 
 #chat-bot-launcher-container {
   position: absolute !important;
@@ -88,7 +91,7 @@ p {
 #header {
   position: fixed;
   width: 100vw;
-  z-index: 100;
+  z-index: 100000;
   background: #fff;
   padding: 0 2.5vw;
 }
