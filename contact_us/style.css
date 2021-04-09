@@ -41,11 +41,8 @@ body {
   margin-left: 30px;
   font-size: 1.6rem;
 }
-#header .active {
-  background: #fff;
-  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+#header.active {
+  box-shadow: 0px 4px 18px rgba(37, 170, 225, 0.3);
 }
 
 /***************************/
@@ -131,6 +128,9 @@ a {
 }
 #contact .has-search select {
   padding-left: 60px;
+}
+#contact .has-search span {
+  font-size: 24px;
 }
 #contact .i_am_a {
   display: flex;
@@ -273,4 +273,109 @@ ul.tabs li.current {
   ul.tabs li.current {
     border-radius: 6px;
   }
+
+  footer {
+    background: #e9f8ff;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  footer .container_footer {
+    width: 80vw;
+    margin: 0 auto;
+  }
+  footer a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #242624;
+    margin-top: 20px;
+  }
+  footer .footer_upper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  footer .footer_upper .divider {
+    background: #242624;
+    display: none;
+    margin-top: 10px;
+  }
+
+  footer .divider {
+    width: 1px;
+    height: 23px;
+    background: #242624;
+  }
+  footer .footer_down .footer_down_left {
+    text-align: center;
+    margin: 20px 0;
+  }
+  footer .footer_down {
+    margin-top: 30px;
+  }
+  footer .footer_down .footer_down_right {
+    text-align: center;
+  }
+  footer .footer_down a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #242624;
+  }
+  footer .footer_down img {
+    font-weight: bold;
+    margin-left: 15px;
+    font-size: 1.5rem;
+    color: #242624;
+  }
+}
+
+footer {
+  background: #e9f8ff;
+  padding: 50px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+footer .container_footer {
+  width: 80vw;
+  margin: 0 auto;
+}
+footer a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #242624;
+}
+footer .footer_upper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .footer_upper .divider {
+  background: #242624;
+}
+
+footer .divider {
+  width: 1px;
+  height: 23px;
+  background: #242624;
+}
+footer .footer_down .footer_down_left {
+  text-align: left;
+}
+footer .footer_down {
+  margin-top: 30px;
+}
+footer .footer_down .footer_down_right {
+  text-align: right;
+}
+footer .footer_down a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #242624;
+}
+footer .footer_down img {
+  font-weight: bold;
+  margin-left: 44px;
+  font-size: 1.5rem;
+  color: #242624;
 }
