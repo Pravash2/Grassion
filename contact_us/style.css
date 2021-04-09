@@ -101,6 +101,7 @@ a {
 /*****************Tabs***********************/
 #contact {
   padding-top: 100px;
+  padding-bottom: 70px;
 }
 #contact input {
   height: 62px;
@@ -342,7 +343,7 @@ footer .container_footer {
 }
 footer a {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 0.9rem;
   color: #242624;
 }
 footer .footer_upper {

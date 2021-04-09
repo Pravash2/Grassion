@@ -48,7 +48,7 @@ body {
 /***************************/
 #careers {
   padding-top: 150px;
-  padding-bottom: 30px;
+  padding-bottom: 100px;
   min-height: 100vh;
 }
 #careers h1 {
@@ -184,7 +184,7 @@ footer .container_footer {
 }
 footer a {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 0.9rem;
   color: #242624;
 }
 footer .footer_upper {
