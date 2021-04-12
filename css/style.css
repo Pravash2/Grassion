@@ -62,7 +62,8 @@ body {
 }
 
 #chat-bot-launcher-container {
-  position: absolute !important;
+  /* position: absolute !important; */
+  position: fixed !important;
   z-index: 50;
 }
 p {
