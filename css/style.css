@@ -76,17 +76,55 @@ p {
   border: none;
   color: #fff !important;
 }
-.btn-primary:hover {
-  background: #25aae1;
-}
+
 .btn-secondary {
   background: #e9e9e9;
   color: #000000;
   border: none;
 }
-.btn-secondary:hover {
-  background: #e9e9e9;
+
+.button_slide {
+  color: #fff;
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #25aae1;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+.button_slide2 {
   color: #000000;
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #25aae1;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.slide_right:hover {
+  box-shadow: inset 400px 0 0 0 #25aae1;
+}
+.slide_right2:hover {
+  box-shadow: inset 400px 0 0 0 #e9e9e9;
+  /* border: 2px solid #e9e9e9; */
+  color: rgba(0, 0, 0, 0.53) !important;
+}
+
+#outer {
+  width: 364px;
+  margin: 50px auto 0 auto;
+  text-align: center;
 }
 
 /*********header********************/
