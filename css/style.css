@@ -59,6 +59,7 @@ body {
 }
 #header.active {
   box-shadow: 0px 4px 18px rgba(37, 170, 225, 0.3);
+  transition: 0.5s ease-in;
 }
 
 #chat-bot-launcher-container {
@@ -179,7 +180,7 @@ main .left_gif img {
   position: absolute;
   width: 337px;
   height: 254px;
-  left: 0px;
+  left: 50px;
   top: 226px;
   opacity: 0.5;
 }
@@ -187,7 +188,7 @@ main .right_gif img {
   position: absolute;
   width: 337px;
   height: 254px;
-  right: 0px;
+  right: 50px;
   top: 226px;
   opacity: 0.5;
 }
@@ -648,6 +649,10 @@ footer .footer_down img {
 }
 
 @media only screen and (max-width: 600px) {
+  #chat-bot-launcher-container.chat-bot-launcher-enabled.chat-bot-avatar-launcher
+    #chat-bot-avatar-text {
+    display: none !important;
+  }
   main h1 {
     font-weight: 700;
     font-size: 1.2rem;
