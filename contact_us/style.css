@@ -108,6 +108,11 @@ a {
   padding-left: 60px;
   border-radius: 14px;
 }
+#contact input:focus {
+  outline: none;
+  border: 1px solid #ced4da;
+  box-shadow: none;
+}
 #contact textarea {
   border-radius: 14px;
 }
