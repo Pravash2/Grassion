@@ -76,11 +76,22 @@ p {
   border: none;
   color: #fff !important;
 }
+.btn-primary:active {
+  background: #25aae1 !important;
+  border: none !important;
+  color: #fff !important;
+}
 
 .btn-secondary {
   background: #e9e9e9;
   color: #000000;
   border: none;
+}
+.btn-secondary:active,
+.btn-secondary:focus {
+  background: #e9e9e9 !important;
+  color: rgba(0, 0, 0, 0.53) !important;
+  border: none !important;
 }
 
 .button_slide {
@@ -88,7 +99,6 @@ p {
   border-radius: 0px;
   padding: 18px 36px;
   display: inline-block;
-  font-family: "Lucida Console", Monaco, monospace;
   font-size: 14px;
   letter-spacing: 1px;
   cursor: pointer;
@@ -98,15 +108,14 @@ p {
   transition: ease-out 0.4s;
 }
 .button_slide2 {
-  color: #000000;
+  color: rgba(0, 0, 0, 0.53);
   border-radius: 0px;
   padding: 18px 36px;
   display: inline-block;
-  font-family: "Lucida Console", Monaco, monospace;
   font-size: 14px;
   letter-spacing: 1px;
   cursor: pointer;
-  box-shadow: inset 0 0 0 0 #25aae1;
+  box-shadow: inset 0 0 0 0 #e9e9e9;
   -webkit-transition: ease-out 0.4s;
   -moz-transition: ease-out 0.4s;
   transition: ease-out 0.4s;
@@ -184,8 +193,8 @@ main .button_main {
   margin-top: 50px;
 }
 main .button_main button {
-  width: 250px;
-  height: 71px;
+  width: 220px;
+  height: 60px;
   font-size: 14px;
   padding: 10px 5px;
   font-weight: bold;
@@ -196,21 +205,21 @@ main .button_main button:hover {
   background: linear-gradient(to right, #fff 50%, #25aae1 50%);
   background-size: 200% 100%;
   background-position: right bottom;
-  transition: all 0.5s ease-out;
+  transition: all 1s ease-out;
   color: #fff;
 }
 main .button_main button:hover {
   background: linear-gradient(to right, #fff 50%, #25aae1 50%);
   background-size: 200% 100%;
   background-position: right bottom;
-  transition: all 0.5s ease-out;
+  transition: all 1s ease-out;
   color: #fff;
 }
 main .button_main .active_btn:hover {
   background: linear-gradient(to right, #fff 50%, #25aae1 50%);
   background-size: 200% 100%;
   background-position: right bottom;
-  transition: all 0.5s ease-out;
+  transition: all 1s ease-out;
   color: #fff;
 }
 
@@ -489,7 +498,6 @@ footer .footer_down img {
   top: -0 !important;
   left: 0;
   content: " ";
-  background: url(img/testimonial.bg-top.png);
   background-size: 100% 100px;
   width: 100%;
   height: 100px;

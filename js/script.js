@@ -42,3 +42,7 @@ $(window).scroll(function () {
     $("#header").removeClass("active");
   }
 });
+
+// $(
+//   "#chat-bot-launcher-container.chat-bot-launcher-enabled.chat-bot-avatar-launcher #chat-bot-avatar-text"
+// ).css({ display: "none !important" });
