@@ -13,7 +13,9 @@ body {
   z-index: 100;
   background: #fff;
   padding: 0 2.5vw;
+  transition: all 0.4s ease-out;
 }
+
 #header .nav-link {
   color: #242624;
   font-weight: 500;

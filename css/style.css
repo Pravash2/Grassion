@@ -147,7 +147,7 @@ button:focus {
   z-index: 100000;
   background: #fff;
   padding: 0 2.5vw;
-  transition: 0.3s ease-in;
+  transition: all 0.4s ease-out;
 }
 #header .nav-link {
   color: #242624;
