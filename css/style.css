@@ -87,13 +87,18 @@ p {
   color: #000000;
   border: none;
 }
-.btn-secondary:active,
-.btn-secondary:focus {
+
+.btn:active,
+.btn:focus {
   background: #e9e9e9 !important;
   color: rgba(0, 0, 0, 0.53) !important;
   border: none !important;
+  outline: none !important;
 }
 
+button:focus {
+  outline: 0 !important;
+}
 .button_slide {
   color: #fff;
   border-radius: 0px;
