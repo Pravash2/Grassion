@@ -111,6 +111,14 @@ footer .footer_down img {
 }
 
 @media only screen and (max-width: 600px) {
+  #construction .container img {
+    width: 200px;
+  }
+  #construction .construction_image img {
+    width: 295px;
+    align-items: center;
+    margin: 0 auto;
+  }
   .about_page_float_bottom {
     position: static;
     width: 300px;
