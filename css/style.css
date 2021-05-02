@@ -714,6 +714,9 @@ footer .footer_down img {
     #chat-bot-avatar-text {
     display: none !important;
   }
+  .nav-link {
+    text-align: center;
+  }
   main h1 {
     font-weight: 700;
     font-size: 1.2rem;
@@ -735,7 +738,7 @@ footer .footer_down img {
   main .button_main button {
     width: 150px;
     height: 41px;
-    font-size: 14px;
+    font-size: 12px;
     padding: 10px 5px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.53);
