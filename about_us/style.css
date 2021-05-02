@@ -142,6 +142,9 @@ footer .footer_down img {
     width: 300px;
     margin: 0;
   }
+  #header .nav-link {
+    margin-left: 0px !important;
+  }
   .about_page_float_bottom img {
     width: 350px;
     height: 300px;

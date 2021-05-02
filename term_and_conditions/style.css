@@ -148,6 +148,9 @@ footer .footer_down img {
 }
 
 @media only screen and (max-width: 600px) {
+  #header .nav-link {
+    margin-left: 0px !important;
+  }
   #privacy_policy .term_and_condition_img img {
     width: 300px;
   }

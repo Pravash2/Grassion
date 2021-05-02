@@ -49,7 +49,7 @@ body {
 
 /***************************/
 #careers {
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 100px;
   min-height: 100vh;
 }
@@ -85,7 +85,7 @@ body {
 }
 #careers select {
   height: 62px;
-  line-height: 50px;
+  line-height: 40px;
   padding-right: 20px;
   padding-left: 20px;
   border-radius: 14px;
@@ -225,6 +225,9 @@ footer .footer_down img {
 }
 
 @media only screen and (max-width: 600px) {
+  #header .nav-link {
+    margin-left: 0px !important;
+  }
   .about_page_float_bottom {
     position: static;
     width: 300px;
@@ -238,16 +241,27 @@ footer .footer_down img {
   #careers input,
   #careers select,
   #careers button {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    height: 55px;
   }
   #careers button {
     background: #25aae1;
     color: #fff;
-    width: 100%;
-    height: 62px;
+    width: 90%;
+    height: 55px;
     border-radius: 5px;
     margin-top: -40px;
     margin-bottom: 40px;
+    text-align: center;
+  }
+  #careers .container_upload {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #careers .submit_btn {
+    text-align: center;
+    width: 100%;
   }
   footer {
     background: #e9f8ff;

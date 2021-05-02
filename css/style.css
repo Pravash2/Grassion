@@ -714,8 +714,8 @@ footer .footer_down img {
     #chat-bot-avatar-text {
     display: none !important;
   }
-  .nav-link {
-    text-align: center;
+  #header .nav-link {
+    margin-left: 0px !important;
   }
   main h1 {
     font-weight: 700;

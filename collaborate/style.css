@@ -141,6 +141,9 @@ footer .footer_down img {
   color: #242624;
 }
 @media only screen and (max-width: 600px) {
+  #header .nav-link {
+    margin-left: 0px !important;
+  }
   .about_page_float_bottom {
     position: static;
     width: 300px;
