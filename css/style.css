@@ -747,7 +747,7 @@ footer .footer_down img {
     width: 150px;
     height: 112.5px;
     left: 0px;
-    top: 150px;
+    top: 130px;
     opacity: 0.5;
   }
   main .right_gif img {
@@ -755,7 +755,7 @@ footer .footer_down img {
     width: 150px;
     height: 112.5px;
     right: 0px;
-    top: 150px;
+    top: 130px;
     opacity: 0.5;
   }
   main .bottom_gif img {
@@ -764,7 +764,7 @@ footer .footer_down img {
     height: 112.5px;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 150px;
+    bottom: 130px;
     opacity: 0.5;
   }
   #what_are_we {
