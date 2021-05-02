@@ -13,9 +13,7 @@ body {
   z-index: 100;
   background: #fff;
   padding: 0 2.5vw;
-  /* -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-  box-shadow: 0 2px 3px rgb(37, 170, 225, 0.3); */
+  transition: all 0.4s ease-out;
 }
 #header .nav-link {
   color: #242624;

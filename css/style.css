@@ -205,6 +205,9 @@ button:focus {
   box-shadow: 0px 4px 18px rgba(37, 170, 225, 0.3);
 }
 /**********************Main*********************/
+nav-item {
+  text-align: center;
+}
 main h1 {
   font-weight: 700;
 }
@@ -278,7 +281,6 @@ main .bottom_gif img {
 #what_are_we .what_are_we_img img {
   width: 80%;
 }
-
 #what_are_we .what_are_we_img {
   width: 80%;
   margin-left: auto;
@@ -745,7 +747,7 @@ footer .footer_down img {
     width: 100px;
     height: 75px;
     left: 0px;
-    top: 226px;
+    top: 170px;
     opacity: 0.5;
   }
   main .right_gif img {
@@ -753,7 +755,7 @@ footer .footer_down img {
     width: 100px;
     height: 75px;
     right: 0px;
-    top: 226px;
+    top: 170px;
     opacity: 0.5;
   }
   main .bottom_gif img {
@@ -779,6 +781,10 @@ footer .footer_down img {
   }
   #what_are_we .what_are_we_img img {
     width: 100%;
+  }
+  #what_are_we .what_are_we_play_button_div {
+    text-align: center;
+    margin: 30px;
   }
 
   #what_are_we .what_are_we_img {
