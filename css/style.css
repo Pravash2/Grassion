@@ -744,27 +744,27 @@ footer .footer_down img {
 
   main .left_gif img {
     position: absolute;
-    width: 100px;
-    height: 75px;
+    width: 150px;
+    height: 112.5px;
     left: 0px;
-    top: 170px;
+    top: 150px;
     opacity: 0.5;
   }
   main .right_gif img {
     position: absolute;
-    width: 100px;
-    height: 75px;
+    width: 150px;
+    height: 112.5px;
     right: 0px;
-    top: 170px;
+    top: 150px;
     opacity: 0.5;
   }
   main .bottom_gif img {
     position: absolute;
-    width: 200px;
-    height: 150px;
+    width: 150px;
+    height: 112.5px;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 20px;
+    bottom: 150px;
     opacity: 0.5;
   }
   #what_are_we {
