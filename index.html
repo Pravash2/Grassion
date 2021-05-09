@@ -10,10 +10,11 @@
       name="description"
       content="Grassion is an AI-based venture that helps you Explore Fitness Centers Nearby with customized plans according to your Body type"
     />
+
     <meta name="author" content="Grassion" />
 
     <title>Grassion</title>
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="icon"
       type="image/png"
@@ -24,7 +25,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="vendor/fonts/all.css" rel="stylesheet" />
     <!--load all styles -->
@@ -89,26 +90,22 @@
     <main class="container">
       <div class="row">
         <div class="left_gif">
-          <img src="./assets/gif/landing1.gif" />
+          <img data-aos="slide-right" src="./assets/gif/landing1.gif" />
         </div>
         <div class="right_gif">
-          <img src="./assets/gif/landing2.gif" />
+          <img data-aos="slide-left" src="./assets/gif/landing2.gif" />
         </div>
         <div class="bottom_gif">
           <img src="./assets/gif/landing3.gif" />
         </div>
-        <div class="col-lg-12 text-center main_container">
-          <h1 data-aos="slide-down">An Unique Approach To Revolutionize</h1>
-          <h1 data-aos="slide-down" class="heading_bottom">
-            The World Of Fitness.
-          </h1>
-          <p data-aos="slide-up" class="m-0">
+        <div data-aos="slide-up" class="col-lg-12 text-center main_container">
+          <h1>An Unique Approach To Revolutionize</h1>
+          <h1 class="heading_bottom">The World Of Fitness.</h1>
+          <p class="m-0">
             Grassion is an AI-based venture that helps you Explore Fitness
             Centers Nearby
           </p>
-          <p data-aos="slide-up" class="m-0">
-            with customized plans according to your Body type
-          </p>
+          <p class="m-0">with customized plans according to your Body type</p>
 
           <div class="button_main">
             <a href="./construction/index.html">
@@ -132,10 +129,7 @@
     <section id="what_are_we">
       <div class="container">
         <div class="row">
-          <div
-            class="col-lg-6 col-md-12 what_are_we_desc"
-            data-aos="slide-right"
-          >
+          <div class="col-lg-6 col-md-12 what_are_we_desc">
             <h2>What Are We ?</h2>
             <p>
               Grassion is a FitnessTech venture that aims at providing
@@ -153,7 +147,7 @@
               </a> -->
             </div>
           </div>
-          <div data-aos="slide-left" class="col-lg-6 col-md-12 what_are_we_img">
+          <div class="col-lg-6 col-md-12 what_are_we_img">
             <img src="./assets/what_are_we.png" />
           </div>
         </div>
@@ -167,7 +161,7 @@
         <h2>Why Choose Us ?</h2>
         <div class="row">
           <div class="col-lg-4 col-md-12">
-            <div class="why_choose_us_desc" data-aos="slide-right">
+            <div class="why_choose_us_desc">
               <img src="./assets/icons/customized_plans.svg" />
               <h4>Customized Plans</h4>
               <p>Get Trained From Experts With Your</p>
@@ -176,7 +170,7 @@
           </div>
 
           <div class="col-lg-4 col-md-12">
-            <div class="why_choose_us_desc" data-aos="slide-up">
+            <div class="why_choose_us_desc">
               <img src="./assets/icons/ai_based_solutions.svg" />
               <h4>AI-Based Solutions</h4>
               <p>Let AI Track Your Activites And Record</p>
@@ -185,7 +179,7 @@
           </div>
 
           <div class="col-lg-4 col-md-12">
-            <div class="why_choose_us_desc" data-aos="slide-left">
+            <div class="why_choose_us_desc">
               <img src="./assets/icons/ease_of_use.svg" />
               <h4>Ease Of Use</h4>
               <p>One Of The Best Interactive Platforms</p>
@@ -195,7 +189,7 @@
         </div>
       </div>
     </section>
-    <section data-aos="zoom-in" id="promo_video">
+    <section id="promo_video">
       <iframe
         width="560"
         height="315"
@@ -303,14 +297,11 @@
 
     <section id="part_of_program">
       <div class="container">
-        <div data-aos="slide-right" class="row part_of_program_div">
+        <div class="row part_of_program_div">
           <div class="col-lg-6 col-md-6">
             <img src="./assets/part_of_our_program.png" />
           </div>
-          <div
-            data-aos="slide-left"
-            class="col-lg-6 col-md-6 part_of_program_text"
-          >
+          <div class="col-lg-6 col-md-6 part_of_program_text">
             <h2>Be a Part of Our</h2>
             <h2>Programs</h2>
             <p>
@@ -327,7 +318,7 @@
       </div>
     </section>
 
-    <section data-aos="flip-up" id="play_button">
+    <section id="play_button">
       <a href="./construction/index.html">
         <img src="./assets/google_playbutton.png" />
       </a>
@@ -496,6 +487,9 @@
         ).css({ display: "none" });
       });
     </script>
+
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({
@@ -519,8 +513,6 @@
         anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
       });
     </script>
-    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="./js/script.js"></script>
     <script type="text/javascript">
       (function (d) {
         function C(k) {
