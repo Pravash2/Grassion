@@ -24,10 +24,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="vendor/fonts/all.css" rel="stylesheet" />
     <!--load all styles -->
@@ -92,22 +89,26 @@
     <main class="container">
       <div class="row">
         <div class="left_gif">
-          <img src="./assets/gif/landing1.gif" />
+          <img data-aos="slide-right" src="./assets/gif/landing1.gif" />
         </div>
         <div class="right_gif">
-          <img src="./assets/gif/landing2.gif" />
+          <img data-aos="slide-left" src="./assets/gif/landing2.gif" />
         </div>
         <div class="bottom_gif">
-          <img src="./assets/gif/landing3.gif" />
+          <img data-aos="slide-up" src="./assets/gif/landing3.gif" />
         </div>
         <div class="col-lg-12 text-center main_container">
-          <h1>An Unique Approach To Revolutionize</h1>
-          <h1 class="heading_bottom">The World Of Fitness.</h1>
-          <p class="m-0">
+          <h1 data-aos="slide-down">An Unique Approach To Revolutionize</h1>
+          <h1 data-aos="slide-down" class="heading_bottom">
+            The World Of Fitness.
+          </h1>
+          <p data-aos="slide-up" class="m-0">
             Grassion is an AI-based venture that helps you Explore Fitness
             Centers Nearby
           </p>
-          <p class="m-0">with customized plans according to your Body type</p>
+          <p data-aos="slide-up" class="m-0">
+            with customized plans according to your Body type
+          </p>
 
           <div class="button_main">
             <a href="./construction/index.html">
@@ -131,7 +132,10 @@
     <section id="what_are_we">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-md-12 what_are_we_desc">
+          <div
+            class="col-lg-6 col-md-12 what_are_we_desc"
+            data-aos="slide-right"
+          >
             <h2>What Are We ?</h2>
             <p>
               Grassion is a FitnessTech venture that aims at providing
@@ -149,7 +153,7 @@
               </a> -->
             </div>
           </div>
-          <div class="col-lg-6 col-md-12 what_are_we_img">
+          <div data-aos="slide-left" class="col-lg-6 col-md-12 what_are_we_img">
             <img src="./assets/what_are_we.png" />
           </div>
         </div>
@@ -163,7 +167,7 @@
         <h2>Why Choose Us ?</h2>
         <div class="row">
           <div class="col-lg-4 col-md-12">
-            <div class="why_choose_us_desc animate__animated animate__bounce">
+            <div class="why_choose_us_desc" data-aos="slide-right">
               <img src="./assets/icons/customized_plans.svg" />
               <h4>Customized Plans</h4>
               <p>Get Trained From Experts With Your</p>
@@ -172,7 +176,7 @@
           </div>
 
           <div class="col-lg-4 col-md-12">
-            <div class="why_choose_us_desc">
+            <div class="why_choose_us_desc" data-aos="slide-up">
               <img src="./assets/icons/ai_based_solutions.svg" />
               <h4>AI-Based Solutions</h4>
               <p>Let AI Track Your Activites And Record</p>
@@ -181,7 +185,7 @@
           </div>
 
           <div class="col-lg-4 col-md-12">
-            <div class="why_choose_us_desc">
+            <div class="why_choose_us_desc" data-aos="slide-left">
               <img src="./assets/icons/ease_of_use.svg" />
               <h4>Ease Of Use</h4>
               <p>One Of The Best Interactive Platforms</p>
@@ -191,7 +195,7 @@
         </div>
       </div>
     </section>
-    <section id="promo_video">
+    <section data-aos="fade-up" id="promo_video">
       <iframe
         width="560"
         height="315"
@@ -300,10 +304,13 @@
     <section id="part_of_program">
       <div class="container">
         <div class="row part_of_program_div">
-          <div class="col-lg-6 col-md-6">
+          <div class="col-lg-6 col-md-6" data-aos="slide-right">
             <img src="./assets/part_of_our_program.png" />
           </div>
-          <div class="col-lg-6 col-md-6 part_of_program_text">
+          <div
+            class="col-lg-6 col-md-6 part_of_program_text"
+            data-aos="slide-left"
+          >
             <h2>Be a Part of Our</h2>
             <h2>Programs</h2>
             <p>
@@ -320,7 +327,7 @@
       </div>
     </section>
 
-    <section id="play_button">
+    <section id="play_button" data-aos="flip-up">
       <a href="./construction/index.html">
         <img src="./assets/google_playbutton.png" />
       </a>
@@ -489,7 +496,29 @@
         ).css({ display: "none" });
       });
     </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: "aos-init", // class applied after initialization
+        animatedClassName: "aos-animate", // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
 
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 120, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 700, // values from 0 to 3000, with step 50ms
+        easing: "ease", // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
+      });
+    </script>
     <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
     <script type="text/javascript">
