@@ -10,8 +10,11 @@
   .ytp-copylink-button-visible {
   display: none !important;
 } */
-.navbar-dark .navbar-toggler {
-  background: #adb5bd !important;
+/* .navbar-dark .navbar-toggler {
+  background: #c0c3c7 !important;
+} */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
 #chat-bot-launcher-container #chat-bot-avatar-text:before {
   content: " ";
@@ -95,10 +98,10 @@ p {
   border: none !important;
   outline: none !important;
 }
-.btn-secondary.focus,
-.btn-secondary:focus {
+.btn-secondary:hover,
+.btn-secondary:hover {
   color: #fff;
-  background-color: #5a6268;
+  background: none;
 }
 
 button:focus {
@@ -107,9 +110,8 @@ button:focus {
 .btn-secondary.focus,
 .btn-secondary:focus {
   color: #fff;
-  background-color: #5a6268;
-  border-color: #545b62;
-  box-shadow: none;
+  background: none;
+  border: none;
 }
 .btn.focus,
 .btn:focus {
@@ -257,13 +259,18 @@ main .right_gif img {
   opacity: 0.5;
 }
 main .bottom_gif img {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+main .bottom_gif img {
   position: absolute;
   width: 337px;
   height: 254px;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 20px;
+  display: block;
+  bottom: -150px;
   opacity: 0.5;
+  left: -29%;
 }
 
 /******************************************/
@@ -776,7 +783,7 @@ footer .footer_down img {
     height: 90px;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 50px;
+    bottom: -50px;
     opacity: 0.5;
   }
   main .main_container {
@@ -1032,9 +1039,10 @@ footer .footer_down img {
     position: absolute;
     width: 150px;
     height: 112.5px;
+
     left: 50%;
     transform: translateX(-50%);
-    bottom: 50px;
+    bottom: -50px;
     opacity: 0.5;
   }
   main .main_container {
@@ -1293,7 +1301,7 @@ footer .footer_down img {
     height: 112.5px;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 7vh;
+    bottom: -25vh;
     opacity: 0.5;
   }
   main .main_container {
@@ -1552,8 +1560,9 @@ footer .footer_down img {
     height: 112.5px;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 10vh;
+
     opacity: 0.5;
+    bottom: -25vh;
   }
   #what_are_we {
   }
@@ -1616,7 +1625,7 @@ footer .footer_down img {
     height: 225px;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 10vh;
+    bottom: -25vh;
     opacity: 0.5;
   }
 
@@ -1872,5 +1881,16 @@ footer .footer_down img {
     font-size: 1.2rem;
     color: rgba(36, 38, 36, 0.6);
     margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  main .bottom_gif img {
+    position: absolute;
+    width: 300px;
+    height: 225px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -25vh;
+    opacity: 0.5;
   }
 }
