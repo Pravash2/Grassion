@@ -265,6 +265,7 @@ main .bottom_gif img {
   transform: translateX(-50%);
   animation-name: example;
   animation-duration: 0.7s;
+  animation-fill-mode: forwards;
 }
 @keyframes example {
   0% {
