@@ -50,8 +50,11 @@ body {
 /***************************/
 #certificate {
   padding-top: 100px;
-
-  padding-bottom: 50px;
+  padding-bottom: 10px;
+}
+#certificate_img img {
+  width: 100%;
+  margin: ;
 }
 #certificate h1 {
   color: rgba(36, 38, 36, 1);
